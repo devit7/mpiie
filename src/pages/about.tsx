@@ -9,7 +9,7 @@ const About = () => {
                 <div className="space-y-6">
                     <div className=" grid grid-cols-3 gap-4">
                         <div className="col-span-2">
-                            <h2 className="text-2xl font-semibold mb-4 hover:rotate-1">Hi I'm Devit Erlingga Arafiudin <FontAwesomeIcon icon={faUpRightFromSquare} className="text-sm cursor-pointer text-gray-200"/></h2>
+                            <h2 className="text-2xl font-semibold mb-4 hover:rotate-1">Hi I am Devit Erlingga Arafiudin <FontAwesomeIcon icon={faUpRightFromSquare} className="text-sm cursor-pointer text-gray-200"/></h2>
                             <p className="text-gray-400 ">
                                 I am a Undergraduate student at Telkom University Surabaya, majoring in Software Engineering. My focus is on software development, from design to maintenance.
                             </p>
