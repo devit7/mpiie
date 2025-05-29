@@ -2,7 +2,6 @@ import MenuFooter from '@/components/menu-footer';
 import MenuHeader from '@/components/menu-header';
 import Navigation from '@/components/navigation';
 import AnimatedOverlay from '@/components/animated-overlay';
-import NeonCursorTrails from '@/components/neon-cursor-trails';
 import { ReactNode } from 'react';
 
 interface LayoutProps {

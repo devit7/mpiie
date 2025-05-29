@@ -1,4 +1,4 @@
-import { faArrowUpRightDots, faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import {  faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Project = () => {

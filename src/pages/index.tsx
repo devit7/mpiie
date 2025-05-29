@@ -1,5 +1,4 @@
 import DigitalRain from '../components/digital-rain';
-import RandomText from '../components/random-text';
 import ProgrammerThoughts from '../components/programmer-thoughts';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
