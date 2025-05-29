@@ -1,4 +1,4 @@
-import {  faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
@@ -38,6 +38,8 @@ const Project = () => {
                 <Image
                   src={project.image}
                   alt={project.title}
+                  width={192}
+                  height={128}
                   className="w-full h-full object-cover rounded-sm border border-gray-600 hover:border-gray-600 transition-colors shadow-lg shadow-gray-800/20 "
                 />
               </div>
@@ -45,7 +47,7 @@ const Project = () => {
               {/* Project Content */}
               <div className="flex-1">
                 <div className="flex justify-between items-start mb-3">
-                  <h2 className="text-xl font-semibold">{project.title} <FontAwesomeIcon icon={faUpRightFromSquare} className="text-xs cursor-pointer text-gray-200"/> </h2>
+                  <h2 className="text-xl font-semibold">{project.title} <FontAwesomeIcon icon={faUpRightFromSquare} className="text-xs cursor-pointer text-gray-200" /> </h2>
                   <span className={`px-2 py-1 text-xs rounded ${project.status === 'Completed'
                     ? 'bg-green-900 text-green-300'
                     : 'bg-yellow-900 text-yellow-300'
