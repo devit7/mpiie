@@ -24,7 +24,21 @@ const Project = () => {
       tech: ["Html", "Css", "Javascript", "TailwindCss"],
       status: "Completed",
       image: "https://media.licdn.com/dms/image/v2/D562DAQE97lnatYTz4A/profile-treasury-image-shrink_800_800/B56ZZ_gO9YHgAc-/0/1745895889132?e=1749106800&v=beta&t=asQsHYrZisJeovTvs-JHi5WhgiksfXJQ8jbuuYEzWz8"
-    }
+    },
+    {
+      title: "Freelance Profile Company CV. RAMAH GUNUNG",
+      description: "A freelance project to create a company profile website for CV. RAMAH GUNUNG. The website highlights the company's products and services.",
+      tech: ["Laravel", "Javascript", "TailwindCss"],
+      status: "Completed",
+      image: "https://media.licdn.com/dms/image/v2/D562DAQHM9sviDbHhew/profile-treasury-image-shrink_800_800/B56ZZ_e0eJGkAg-/0/1745895515541?e=1749121200&v=beta&t=bQGSJVbT0Ppt4GhqFr4UPa5aj3AFpy0vpwwa-EDbF-I"
+    },
+    {
+      title: "Freelance Profile Company PT. Cahaya Perdana Makmur",
+      description: "A freelance project to create a company profile website for PT. Cahaya Perdana Makmur. The website serves as an online presence for the company.",
+      tech: ["Laravel", "Javascript", "TailwindCss"],
+      status: "Completed",
+      image: "https://media.licdn.com/dms/image/v2/D562DAQHc6FstH2f-Zg/profile-treasury-image-shrink_800_800/B56ZZ_fuG2HgAg-/0/1745895748682?e=1749121200&v=beta&t=dNASkGEZzG8mqTp9MM3so4nZkQHz5ex2EI7cA2PsJPA"
+    },
   ];
 
   return (
