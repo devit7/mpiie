@@ -1,4 +1,4 @@
-import { faTrophy, faMedal, faAward, faCertificate, faCalendar, faBuilding } from "@fortawesome/free-solid-svg-icons";
+import { faTrophy,  faAward, faCertificate, faCalendar, faBuilding } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
