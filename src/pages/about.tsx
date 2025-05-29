@@ -1,6 +1,6 @@
-import { faDiscord } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const About = () => {
     return (
@@ -13,10 +13,10 @@ const About = () => {
                             <p className="text-gray-400 ">
                                 I am a Undergraduate student at Telkom University Surabaya, majoring in Software Engineering. My focus is on software development, from design to maintenance.
                             </p>
-                            <div className='flex flex-wrap items-center gap-2 my-2 text-xs'>
-                                <div className='bg-green-950 px-3 rounded-sm text-green-200'>backend web developer</div>
-                                <div className='bg-purple-950 px-3 rounded-sm text-purple-200'>frontend web developer</div>
-                                <div className='bg-yellow-950 px-3 rounded-sm text-yellow-200'>fullstack web developer</div>
+                            <div className="flex flex-wrap items-center gap-2 my-2 text-xs">
+                                <div className="bg-green-950 px-3 rounded-sm text-green-200">backend web developer</div>
+                                <div className="bg-purple-950 px-3 rounded-sm text-purple-200">frontend web developer</div>
+                                <div className="bg-yellow-950 px-3 rounded-sm text-yellow-200">fullstack web developer</div>
                             </div>
                             <div className="flex gap-3 items-center">
                                 <a href="">

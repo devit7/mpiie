@@ -1,5 +1,6 @@
 import {  faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
 const Project = () => {
   const projects = [
@@ -34,7 +35,7 @@ const Project = () => {
             <div key={index} className="flex gap-4 hover:scale-105 ease-in-out transition-all duration-300">
               {/* Project Image */}
               <div className="w-48 h-32 flex-shrink-0">
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover rounded-sm border border-gray-600 hover:border-gray-600 transition-colors shadow-lg shadow-gray-800/20 "

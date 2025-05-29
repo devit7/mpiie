@@ -6,7 +6,7 @@ export default function ProgrammerThoughts() {
     const [position, setPosition] = useState({ x: 0, y: 0 });
     const [isVisible, setIsVisible] = useState(false);
     const [displayedText, setDisplayedText] = useState('');
-    const [currentThoughtIndex, setCurrentThoughtIndex] = useState(0);
+    const [_, setCurrentThoughtIndex] = useState(0);
 
     const programmerThoughts = [
         "// TODO: Fix this later... (6 months ago)",
